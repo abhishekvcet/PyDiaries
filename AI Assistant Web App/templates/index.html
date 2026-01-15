@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Assistant - TTS</title>
+</head>
+<body>
+    <h2>AI Assistant (Text to Speech)</h2>
+
+    <form method="POST">
+        <textarea name="text" rows="5" cols="50"
+            placeholder="Enter text here..."></textarea><br><br>
+        <button type="submit">Speak</button>
+    </form>
+
+    <br>
+    <audio controls>
+        <source src="/static/output.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
